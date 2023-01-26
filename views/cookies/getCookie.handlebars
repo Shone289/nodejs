@@ -1,0 +1,13 @@
+<h2 class="display-2 text-success">Welcom to getCookie page</h2>
+
+{{#if cookie}}
+  <h2 class="display-2 text-primary text-center text-wrap">{{cookie}}</h2>
+{{else}}
+  <h2 class="display-2 text-danger">You don't have cookie value</h2>
+{{/if}}
+
+{{#if signedCookie}}
+  <h2 class="display-2 text-primary text-center text-break">{{signedCookie}}</h2>
+{{else}}
+  <h2 class="display-2 text-danger">You don't have signed cookie value</h2>
+{{/if}}
